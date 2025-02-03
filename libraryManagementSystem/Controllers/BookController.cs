@@ -1,6 +1,7 @@
 using System.Threading.Tasks;
 using libraryManagementSystem.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace libraryManagementSystem.Controllers {
 
@@ -11,7 +12,9 @@ namespace libraryManagementSystem.Controllers {
             _context = context;
         }
 
-   
+    public async Task<IActionResult> Index(){
+        return View(await _context.Books.ToListAsync());
+    }
 
 
         [HttpGet]
