@@ -1,4 +1,10 @@
 @model Book
+
+@{
+    Layout = "_LayoutNoFooter"; // Yeni oluşturduğum layoutnofooter
+    ViewBag.Title = "Kitap Ekleme"; // Ana sayfanın başlığı
+}
+
 <h2>Kitap Ekle</h2>
 <hr>
 <form asp-action="Create" asp-asp-controller="Book" method="post">

@@ -1,9 +1,12 @@
 @model IEnumerable<Book>
-
+@{
+    Layout = "_LayoutNoFooter"; // Yeni oluşturduğum layoutnofooter
+    ViewBag.Title = "Kitap Listesi"; // Sayfanın başlığı
+}
 <h2 style="text-align: center;" class="mb-0">Kitap Listesi</h2>
 
 <div class="d-flex justify-content-end align-items-center mb-2">
-    <a asp-controller="Book" asp-action="Create" class="btn btn-success">Kitap Ekle</a>
+    <a asp-controller="Book" asp-action="Create" class="btn btn-success"><i class="bi bi-book"></i>  Kitap Ekle</a>
 </div>
 
 <!-- TempData Mesajını Göster -->
@@ -36,10 +39,10 @@
             <td>
                 <div class="d-flex justify-content-around">
                      @* Düzenle butonu *@
-                     <a asp-controller="Book" asp-action="Edit" asp-route-id="@item.BookID" class="btn btn-warning btn-sm ">Düzenle</a>
+                     <a asp-controller="Book" asp-action="Edit" asp-route-id="@item.BookID" class="btn btn-warning btn-sm "><i class="bi bi-pencil"></i></a>
                      @* Silme butonu // onlick özelliği içerisinde @Html.Raw(Json.Serialize özelliği vermemizin sebebi
                      kitap adlarında bulunan tek tırnak ya da çift tırnak işaretlerinden dolayı hata almamak.*@
-                     <button class="btn btn-danger btn-sm" onclick='confirmDelete(@item.BookID, @Html.Raw(Json.Serialize(item.Title)))'>Sil</button>
+                     <button class="btn btn-danger btn-sm" onclick='confirmDelete(@item.BookID, @Html.Raw(Json.Serialize(item.Title)))'><i class="bi bi-trash"></i></button>
 
                      <!-- Gizli Form -->
                      <form id="deleteForm-@item.BookID" method="post" asp-action="Delete" asp-controller="Book">

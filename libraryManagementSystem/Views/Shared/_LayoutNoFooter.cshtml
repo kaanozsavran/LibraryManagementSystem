@@ -28,40 +28,13 @@
     </header>
 
     <!-- Sayfa İçeriği Buraya Gelecek -->
-    
+    <div class="container mt-4">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
-    
+    </div>
 
-<!-- Footer -->
-    <footer class="bg-dark text-white pt-5 pb-1 mt-auto">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h5>Library Management</h5>
-                    <p>Kitaplarınızı kolayca yönetin ve keşfedin.</p>
-                </div>
-                <div class="col-md-4">
-                    <h5>Hızlı Erişim</h5>
-                    <ul class="list-unstyled">
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index" class="text-white text-decoration-none">Anasayfa</a></li>
-                        <li><a asp-area="" asp-controller="Book" asp-action="Index" class="text-white text-decoration-none">Kitaplar</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">İletişim</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5>Bizi Takip Edin</h5>
-                    <a href="https://www.facebook.com" class="text-white me-3"><i class="bi bi-facebook"></i></a>
-                    <a href="https://x.com/home" class="text-white me-3"><i class="bi bi-twitter"></i></a>
-                    <a href="https://www.instagram.com/" class="text-white"><i class="bi bi-instagram"></i></a>
-                </div>
-            </div>
-            <div class="text-center mt-3">
-                <p class="mb-0">&copy; 2025 Library Management. Tüm Hakları Saklıdır.</p>
-            </div>
-        </div>
-    </footer>
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

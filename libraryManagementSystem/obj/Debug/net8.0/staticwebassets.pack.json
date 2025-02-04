@@ -13,6 +13,22 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Pc\\Desktop\\LibraryManagementSystem\\LibraryManagementSystem\\libraryManagementSystem\\wwwroot\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Desktop\\LibraryManagementSystem\\LibraryManagementSystem\\libraryManagementSystem\\wwwroot\\img\\2.jpg",
+      "PackagePath": "staticwebassets\\img\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Desktop\\LibraryManagementSystem\\LibraryManagementSystem\\libraryManagementSystem\\wwwroot\\img\\3.jpg",
+      "PackagePath": "staticwebassets\\img\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Pc\\Desktop\\LibraryManagementSystem\\LibraryManagementSystem\\libraryManagementSystem\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
       "Id": "C:\\Users\\Pc\\Desktop\\LibraryManagementSystem\\LibraryManagementSystem\\libraryManagementSystem\\wwwroot\\js\\script.js",
       "PackagePath": "staticwebassets\\js\\script.js"
     },
