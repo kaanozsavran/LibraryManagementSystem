@@ -1,6 +1,12 @@
 @model IEnumerable<Book>
 
-<h2 style="text-align: center;" class="mb-4">Kitap Listesi</h2>
+<h2 style="text-align: center;" class="mb-0">Kitap Listesi</h2>
+
+<div class="d-flex justify-content-end align-items-center mb-2">
+    <a asp-controller="Book" asp-action="Create" class="btn btn-success">Kitap Ekle</a>
+</div>
+
+
 <table class="table table-bordered table-hover">
   <thead>
     <tr>
