@@ -28,7 +28,7 @@
             <td>@Html.DisplayFor(modelItem => item.Category)</td>
             <td>
                 <div class="d-flex justify-content-around">
-                     <a href="" class="btn btn-warning btn-sm ">Ayrıntılar</a>
+                     <a asp-controller="Book" asp-action="Edit" asp-route-id="@item.BookID" class="btn btn-warning btn-sm ">Ayrıntılar</a>
                      <a href="" class="btn btn-danger btn-sm">Düzenle</a>
                 </div>
                

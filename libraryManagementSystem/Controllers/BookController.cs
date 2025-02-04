@@ -1,3 +1,4 @@
+using System.Linq.Expressions;
 using System.Threading.Tasks;
 using libraryManagementSystem.Data;
 using Microsoft.AspNetCore.Mvc;
@@ -29,5 +30,45 @@ namespace libraryManagementSystem.Controllers {
             return RedirectToAction("Index");
         }
 
+
+        public async Task<IActionResult> Edit(int? id){
+                if(id==null){
+                    return NotFound();
+                }
+                var book = await _context.Books.FindAsync(id);
+
+                if(book==null){
+                    return NotFound();
+                }
+                return View(book);
+        }
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken] // farklı token'ların aynı veriye işlem yapmalarını engeller.
+        public async Task<IActionResult> Edit(int id, Book model){
+                if(id!= model.BookID){
+                    return NotFound();
+                }
+
+                if(ModelState.IsValid){
+                    try
+                    {
+                        _context.Update(model);
+                        await _context.SaveChangesAsync();
+                    }
+                    catch (DbUpdateConcurrencyException) //birden fazla kullanıcı aynı anda güncelleme işlemi yapamaması için.
+                    {
+                        if(!_context.Books.Any(o=>o.BookID == model.BookID)){
+                            return NotFound();
+                        }
+                        else{
+                            throw;
+                        }
+                    }
+                    return RedirectToAction("Index");
+                }
+                return View(model);
+        }
     }
 }
