@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U5YjZ+0uSMqayoHOxF1yJ0ePhkHZSB3BCBoWZ0w8wf0=",
+  "Hash": "I1HcAcYqmMXP/NSqNu9x59t2pZStKIZaNQ6uXB9vgQc=",
   "Source": "libraryManagementSystem",
   "BasePath": "_content/libraryManagementSystem",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Pc\\Desktop\\LibraryManagementSystem\\LibraryManagementSystem\\libraryManagementSystem\\wwwroot\\js\\script.js",
+      "SourceId": "libraryManagementSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Pc\\Desktop\\LibraryManagementSystem\\LibraryManagementSystem\\libraryManagementSystem\\wwwroot\\",
+      "BasePath": "_content/libraryManagementSystem",
+      "RelativePath": "js/script#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "87eehj39fp",
+      "Integrity": "nHMXXdwGb0uy7sT6vrARl89BcHz2RBkS168dZZsfrW4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
       "Identity": "C:\\Users\\Pc\\Desktop\\LibraryManagementSystem\\LibraryManagementSystem\\libraryManagementSystem\\wwwroot\\js\\site.js",
@@ -1481,6 +1502,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.87eehj39fp.js",
+      "AssetFile": "C:\\Users\\Pc\\Desktop\\LibraryManagementSystem\\LibraryManagementSystem\\libraryManagementSystem\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nHMXXdwGb0uy7sT6vrARl89BcHz2RBkS168dZZsfrW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 15:58:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87eehj39fp"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nHMXXdwGb0uy7sT6vrARl89BcHz2RBkS168dZZsfrW4="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "C:\\Users\\Pc\\Desktop\\LibraryManagementSystem\\LibraryManagementSystem\\libraryManagementSystem\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "368"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nHMXXdwGb0uy7sT6vrARl89BcHz2RBkS168dZZsfrW4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Feb 2025 15:58:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nHMXXdwGb0uy7sT6vrARl89BcHz2RBkS168dZZsfrW4="
         }
       ]
     },

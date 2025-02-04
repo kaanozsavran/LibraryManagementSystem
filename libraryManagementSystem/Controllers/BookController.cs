@@ -70,5 +70,21 @@ namespace libraryManagementSystem.Controllers {
                 }
                 return View(model);
         }
+
+        [HttpPost]
+public IActionResult Delete(int id)
+{
+    var book = _context.Books.Find(id);
+    if (book == null)
+    {
+        return NotFound();
+    }
+
+    _context.Books.Remove(book);
+    _context.SaveChanges();
+
+    TempData["SuccessMessage"] = "Kitap başarıyla silindi!";
+    return RedirectToAction("Index");
+}
     }
 }
