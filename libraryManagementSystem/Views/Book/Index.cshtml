@@ -6,6 +6,13 @@
     <a asp-controller="Book" asp-action="Create" class="btn btn-success">Kitap Ekle</a>
 </div>
 
+<!-- TempData Mesajını Göster -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div id="successMessage" class="alert alert-success" style="text-align: center;">
+        @TempData["SuccessMessage"]
+    </div>
+}
 
 <table class="table table-bordered table-hover">
   <thead>
