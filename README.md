@@ -38,15 +38,15 @@ Aşağıda projenin bazı ekran görüntüleri bulunmaktadır:
 ![Image](https://github.com/user-attachments/assets/2538fb8f-122c-46e8-a4c7-fb7d4a1d99a8) 
 
 🔹 **Kitap Ekleme Sayfası**  
-![Kitap Ekleme](![Image](https://github.com/user-attachments/assets/02d45808-7290-404f-becd-d7cc439798c6))  
+![Image](https://github.com/user-attachments/assets/02d45808-7290-404f-becd-d7cc439798c6)
 
 🔹 **Kitap Listesi**  
-![Kitap Listesi](![Image](https://github.com/user-attachments/assets/657f6fc4-a836-49d7-9f16-07a60e0349ff))  
+![Image](https://github.com/user-attachments/assets/657f6fc4-a836-49d7-9f16-07a60e0349ff) 
 
 🔹 **Kitap Güncelleme**  
-![Kitap Güncelleme](![Image](https://github.com/user-attachments/assets/46d894e5-b3d2-4397-8bce-5de3a2fa4543)) 
+![Image](https://github.com/user-attachments/assets/46d894e5-b3d2-4397-8bce-5de3a2fa4543) 
 
 🔹 **Kitap Silme**  
-![Kitap Silme](![Image](https://github.com/user-attachments/assets/cbf52435-2036-4961-8cce-33fd22ec2fe6)) 
+![Image](https://github.com/user-attachments/assets/cbf52435-2036-4961-8cce-33fd22ec2fe6) 
 ![Image](https://github.com/user-attachments/assets/a78ea43f-0d1d-49b8-8c0f-7f390d60f6f9)
 
