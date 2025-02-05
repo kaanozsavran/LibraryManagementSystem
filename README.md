@@ -37,23 +37,23 @@ Aşağıda projenin bazı ekran görüntüleri bulunmaktadır:
 🔹 **Ana Sayfa**  
 <br>
 ![Image](https://github.com/user-attachments/assets/2538fb8f-122c-46e8-a4c7-fb7d4a1d99a8) 
-<br>
+
 
 🔹 **Kitap Ekleme Sayfası**  
 <br>
 ![Image](https://github.com/user-attachments/assets/02d45808-7290-404f-becd-d7cc439798c6)
-<br>
+
 
 🔹 **Kitap Listesi** 
 <br>
 <br>
 ![Image](https://github.com/user-attachments/assets/657f6fc4-a836-49d7-9f16-07a60e0349ff) 
-<br>
+
 
 🔹 **Kitap Güncelleme**  
 <br>
 ![Image](https://github.com/user-attachments/assets/46d894e5-b3d2-4397-8bce-5de3a2fa4543) 
-<br>
+
 
 🔹 **Kitap Silme**  
 <br>
