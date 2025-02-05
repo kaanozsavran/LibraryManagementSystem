@@ -35,7 +35,7 @@ Sistem, **Entity Framework Core** ile veritabanı işlemlerini yönetir ve **SQL
 Aşağıda projenin bazı ekran görüntüleri bulunmaktadır:  
 
 🔹 **Ana Sayfa**  
-![Ana Sayfa](![Image](https://github.com/user-attachments/assets/2538fb8f-122c-46e8-a4c7-fb7d4a1d99a8))  
+![Image](https://github.com/user-attachments/assets/2538fb8f-122c-46e8-a4c7-fb7d4a1d99a8) 
 
 🔹 **Kitap Ekleme Sayfası**  
 ![Kitap Ekleme](![Image](https://github.com/user-attachments/assets/02d45808-7290-404f-becd-d7cc439798c6))  
