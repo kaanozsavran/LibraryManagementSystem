@@ -10,19 +10,19 @@
 <form asp-action="Create" asp-asp-controller="Book" method="post">
     <div class="mb-3">
         <label asp-for="Title" class="form-label">Kitabın Adı</label>
-        <input asp-for="Title" class="form-control">
+        <input asp-for="Title" class="form-control" placeholder="Kitabın adını giriniz.">
     </div>
     <div class="mb-3">
         <label asp-for="Author" class="form-label">Yazar</label>
-        <input asp-for="Author" class="form-control">
+        <input asp-for="Author" class="form-control" placeholder="Yazarın adını giriniz.">
     </div>
     <div class="mb-3">
         <label asp-for="PublicationYear" class="form-label">Yayın Yılı</label>
-        <input asp-for="PublicationYear" class="form-control">
+        <input asp-for="PublicationYear" class="form-control" placeholder="Kitabın yayınlanma yılını giriniz.">
     </div>
     <div class="mb-3">
         <label asp-for="Category" class="form-label">Kategori</label>
-        <input asp-for="Category" class="form-control">
+        <input asp-for="Category" class="form-control" placeholder="Kitabın kategorisini giriniz.">
     </div>
    
     <button type="submit" class="btn btn-secondary">Kaydet</button>
