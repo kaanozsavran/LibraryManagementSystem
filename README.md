@@ -1,7 +1,7 @@
 # 📚 Kütüphane Yönetim Sistemi
 
 ## 🎯 Projenin Amacı  
-Bu proje, kütüphanelerde kitap yönetimini kolaylaştırmak için geliştirilmiş bir **Kütüphane Yönetim Sistemi**dir. Kullanıcılar, sistem üzerinden **kitap ekleme, görüntüleme, güncelleme ve silme (CRUD işlemleri)** gibi temel yönetim işlemlerini gerçekleştirebilir.  
+Techcareer.net FullStack Bootcamp süreci için yaptığım bu proje, kütüphanelerde kitap yönetimini kolaylaştırmak için geliştirilmiş bir **Kütüphane Yönetim Sistemi**dir. Kullanıcılar, sistem üzerinden **kitap ekleme, görüntüleme, güncelleme ve silme (CRUD işlemleri)** gibi temel yönetim işlemlerini gerçekleştirebilir.  
 
 Sistem, kullanıcı dostu bir arayüze ve güçlü bir veritabanı yapısına sahiptir. **ASP.NET Core MVC**, **SQLite** ve **Entity Framework Core** kullanılarak geliştirilmiştir ve modern web teknolojileri ile desteklenmiştir.
 
